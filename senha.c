@@ -7,6 +7,7 @@ int main(){
 	printf("Digite o tamanho: ");
 	scanf("%d",&tam);
 	geraSenha(tam);
+	return 0;
 }
 void geraSenha(int tam){
 	int i,atual,k;
